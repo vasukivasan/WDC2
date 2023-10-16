@@ -7,4 +7,4 @@ RUN cd WDC2
 RUN ls
 RUN pip install -r WDC2/requirements.txt --break-system-packages
 RUN apt-get update && apt-get install libgl1 libsm6 libxext6  -y
-RUN python3 WDC2/main.py
+CMD python3 WDC2/main.py
