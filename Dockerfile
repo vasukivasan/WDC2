@@ -1,2 +1,2 @@
 FROM node
-RUN  apt update && apt install software-properties-common -y
+RUN  add-apt-repository ppa:jonathonf/ffmpeg-4 && apt-get update && apt-get install ffmpeg
