@@ -8,7 +8,7 @@ import threading
 import os
 
 
-UPLOAD_FOLDER = os.path.join(os.getcwd(),os.path.join('data','videos'))
+UPLOAD_FOLDER = os.path.join(os.getcwd(),os.path.join('WDC2/data','videos'))
 ALLOWED_EXTENSIONS = {'mov', 'mp4','gif'}
 
 app = Flask(__name__,
