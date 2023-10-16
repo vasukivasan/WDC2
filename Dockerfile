@@ -1,3 +1,3 @@
 FROM node
 RUN apt update
-RUN apt-get install python3-pip
+RUN apt-get install python3-pip -y
