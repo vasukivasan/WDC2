@@ -13,8 +13,8 @@ class GaitService():
         self.pose = self.mpPose.Pose()
 
         self.fileName = fileName
-        self.fullFilePath= os.path.join(os.path.join(os.getcwd(),os.path.join('data','videos')), self.fileName)
-        self.localFilePath = os.path.join(os.path.join('data','videos'), self.fileName)
+        self.fullFilePath= os.path.join(os.path.join(os.getcwd(),os.path.join('WDC2/data','videos')), self.fileName)
+        self.localFilePath = os.path.join(os.path.join('WDC2/data','videos'), self.fileName)
 
         self.cap= None
         
