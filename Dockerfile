@@ -1,2 +1,2 @@
 FROM node
-RUN apt-get install -y pip
+RUN apt-get install libgl1
