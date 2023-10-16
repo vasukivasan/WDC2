@@ -1,2 +1,2 @@
 FROM node
-RUN apt-get install  libsm6 libxext6 libav-tools
+RUN sudo add-apt-repository ppa:jonathonf/ffmpeg-4 && apt-get update && apt-get install ffmpeg
